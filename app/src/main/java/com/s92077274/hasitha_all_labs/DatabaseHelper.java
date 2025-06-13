@@ -53,6 +53,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         long result = db.insert(TABLE_USERS, null, contentValues);
         db.close();
-        return result;
+        return result;//
     }
 }
