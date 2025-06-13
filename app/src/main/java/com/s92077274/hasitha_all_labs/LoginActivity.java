@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
 
                     usernameEditText.setText("");
-                    passwordEditText.setText("");
+                    passwordEditText.setText("");//
                 } else {
                     Toast.makeText(LoginActivity.this, "Failed to save login data.", Toast.LENGTH_SHORT).show();
                 }
